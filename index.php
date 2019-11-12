@@ -1,4 +1,4 @@
-<? php ConvertApi::setApiSecret('0UA62DeuvRLOIUAq');
+ConvertApi::setApiSecret('0UA62DeuvRLOIUAq');
 $result = ConvertApi::convert('pdf', [
         'File' => '/path/to/my_file.docx',
         'PdfResolution' => '606',
@@ -8,4 +8,4 @@ $result = ConvertApi::convert('pdf', [
         'PdfKeywords' => 'converted from pdfonlineconterot.com',
     ], 'docx'
 );
-$result->saveFiles('/path/to/result/dir'); ?>
+$result->saveFiles('/path/to/result/dir');
