@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../lib/ConvertApi/autoload.php';
+require __DIR__ . 'autoload.php';
 
 use \ConvertApi\ConvertApi;
 
